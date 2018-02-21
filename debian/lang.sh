@@ -48,7 +48,7 @@ Description: tesseract-ocr language files for ${j}
  Tesseract is an open source Optical Character Recognition (OCR)
  Engine. It can be used directly, or (for programmers) using an API to
  extract printed text from images. This package contains the data
- needed for processing images in the ${j} language.
+ needed for processing images in ${j} language.
 
 EOF
 
@@ -89,11 +89,11 @@ Depends: \${misc:Depends}
 Recommends: tesseract-ocr (>= 3.99)
 Breaks: tesseract-ocr (<< 3.99)
 Replaces: tesseract-ocr-data (<< 2)
-Description: tesseract-ocr script files for ${j}
+Description: tesseract-ocr data for ${j} script
  Tesseract is an open source Optical Character Recognition (OCR)
  Engine. It can be used directly, or (for programmers) using an API to
  extract printed text from images. This package contains the data
- needed for processing images in the ${j} script.
+ needed for processing images in ${j} script.
 
 EOF
 
