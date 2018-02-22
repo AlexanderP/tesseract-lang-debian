@@ -1820,11 +1820,11 @@ Depends: ${misc:Depends}
 Recommends: tesseract-ocr (>= 3.99)
 Breaks: tesseract-ocr (<< 3.99)
 Replaces: tesseract-ocr-data (<< 2)
-Description: tesseract-ocr data for Han - Traditiona (vertical) script
+Description: tesseract-ocr data for Han - Traditional (vertical) script
  Tesseract is an open source Optical Character Recognition (OCR)
  Engine. It can be used directly, or (for programmers) using an API to
  extract printed text from images. This package contains the data
- needed for processing images in Han - Traditiona (vertical) script.
+ needed for processing images in Han - Traditional (vertical) script.
 
 Package: tesseract-ocr-script-hang
 Architecture: all
