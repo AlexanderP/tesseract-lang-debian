@@ -1,3 +1,10 @@
+tesseract-lang (4.00~git22-b2832c5-2) unstable; urgency=medium
+
+  * Fix descriptions and spellings
+    https://github.com/AlexanderP/tesseract-lang-debian/pull/1
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Thu, 22 Feb 2018 23:29:06 +0300
+
 tesseract-lang (4.00~git22-b2832c5-1) unstable; urgency=medium
 
   * Adjust package descriptions
