@@ -1,6 +1,19 @@
+tesseract-lang (4.00~git24-0e00fe6-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/tesseract-ocr/tessdata_fast.git
+  * Branch: master
+  * Commit: 0e00fe67ae71ead6155ea03ef13f1a9e77dd7093
+  * Date: 1519659145
+  * git changelog:
+  *  0e00fe6 - Merge pull request #10 from Shreeshrii/master
+  *  4e7c9ce - Add config files to fix auto PSM issue 1273
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Mon, 26 Feb 2018 21:58:40 +0300
+
 tesseract-lang (4.00~git22-b2832c5-3) unstable; urgency=medium
 
-  * Fix descriptions - tesseract-ocr-frk 
+  * Fix descriptions - tesseract-ocr-frk
 
  -- Alexander Pozdnyakov <almipo@mail.ru>  Sun, 25 Feb 2018 20:41:51 +0300
 
