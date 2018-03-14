@@ -1,0 +1,27 @@
+Description: Add git ChangeLog
+Author: Alexander Pozdnyakov <almipo@mail.ru>
+Last-Update: 2018-03-14
+
+--- /dev/null	2018-03-14 14:23:15.071599550 +0300
++++ tesseract-lang-4.00~git26-f102e00/ChangeLog	2018-03-14 14:35:59.770572932 +0300
+@@ -0,0 +1,19 @@
++2018-03-10 - Move trained data for scripts to new subdirectory (commit: 9f875fb)
++2018-02-26 - Add config files to fix auto PSM issue 1273 (commit: 4e7c9ce)
++2018-02-21 - Update README.md (commit: 86db1f4)
++2018-02-21 - Add sections, better formatting (commit: c5aa3ac)
++2018-02-20 - Fix extra spaces in words for chi_tra (commit: 719cfd4)
++2018-02-20 - Fix extra intra-word spaces by adding config file (commit: 80d92b7)
++2018-01-17 - Formatting Changes (commit: 066ce2d)
++2018-01-17 - update with info re jpn and Japanese (commit: cd93ef7)
++2018-01-17 - Update README.md (commit: c9e5053)
++2017-09-15 - Use legacy Orientation Script Detector (OSD) because that is the only thing that currently works. (commit: 139ff12)
++2017-09-15 - Fix config file for default oem mode, change to --oem 1 (commit: 999c044)
++2017-09-15 - README: Improve description and add link to Tesseract wiki (commit: 4888b72)
++2017-09-15 - README: Add text from former COPYRIGHT and add links (commit: 56fa301)
++2017-09-15 - Use the full Apache License text (commit: 7a05840)
++2017-09-14 - add license info (commit: 25cb87d)
++2017-09-14 - Initial import to github (on behalf of Ray) (commit: 923915d)
++2017-09-14 - Testing permissions (commit: 0415860)
++2017-09-11 - Initial commit (commit: f7ec066)
++
+
