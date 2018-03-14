@@ -98,7 +98,7 @@ Description: tesseract-ocr data for ${j} script
 EOF
 
 cat >> tesseract-ocr-script-${i}.install << EOF
-$(cat script.txt | grep "${i}__" | awk -F '__' '{print $2}') usr/share/tesseract-ocr/4.00/tessdata/
+script/$(cat script.txt | grep "${i}__" | awk -F '__' '{print $2}') usr/share/tesseract-ocr/4.00/tessdata/
 
 EOF
 done
