@@ -1,3 +1,25 @@
+tesseract-lang (4.00~git28-f7a4c12-1) unstable; urgency=medium
+
+  * Compile
+  * Add ChangeLog.diff
+  * fix path to files traineddata
+  * fix "insecure-copyright-format-uri"
+  * fix description - tesseract-ocr-hat
+  * returned changes to description - tesseract-ocr-frk
+  * add Version Control System location
+  * Add upstream/metadata
+  * URL: https://github.com/tesseract-ocr/tessdata_fast.git
+  * Branch: master
+  * Commit: f7a4c123725ea3fdbe4717d3ee376038717b5b06
+  * Date: 1521525456
+  * git changelog:
+  *  f7a4c12 - Merge pull request #13 from Shreeshrii/patch-1
+  *  b3ad50c - Updated based on Ray's comment
+  *  f102e00 - Merge pull request #12 from stweil/script
+  *  9f875fb - Move trained data for scripts to new subdirectory
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Tue, 03 Apr 2018 18:06:29 +0300
+
 tesseract-lang (4.00~git24-0e00fe6-1.2) unstable; urgency=medium
 
   * Sponsored upload.
