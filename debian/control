@@ -1295,6 +1295,19 @@ Description: tesseract-ocr language files for Thai
  extract printed text from images. This package contains the data
  needed for processing images in Thai language.
 
+Package: tesseract-ocr-grc
+Architecture: all
+Provides: tesseract-ocr-language, tesseract-ocr-lang
+Depends: ${misc:Depends}
+Recommends: tesseract-ocr (>= 3.99)
+Breaks: tesseract-ocr (<< 3.99)
+Replaces: tesseract-ocr-data (<< 2)
+Description: tesseract-ocr language files for Greek, Ancient (to 1453)
+ Tesseract is an open source Optical Character Recognition (OCR)
+ Engine. It can be used directly, or (for programmers) using an API to
+ extract printed text from images. This package contains the data
+ needed for processing images in Greek, Ancient (to 1453) language.
+
 Package: tesseract-ocr-bre
 Architecture: all
 Provides: tesseract-ocr-language, tesseract-ocr-lang
