@@ -1,2 +1,3 @@
 Bump Standards-Version to 4.1.4
 Epoch bump to add language files for Ancient Greek
+set "Multi-Arch: foreign" to all packages

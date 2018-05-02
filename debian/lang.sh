@@ -39,6 +39,7 @@ j=$(cat lang.txt | grep "^${i}__" | awk -F '__' '{print $2}')
 dependencies $i >> ${CONTROL} << EOF
 Package: tesseract-ocr-${i}
 Architecture: all
+Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
 Recommends: tesseract-ocr (>= 3.99)
@@ -61,6 +62,7 @@ done
 dependencies osd >> ${CONTROL} << EOF
 Package: tesseract-ocr-osd
 Architecture: all
+Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
 Recommends: tesseract-ocr (>= 3.99)
@@ -84,6 +86,7 @@ j=$(cat script.txt | grep "^${i}__" | awk -F '__' '{print $3}')
 dependencies $i >> ${CONTROL} << EOF
 Package: tesseract-ocr-script-${i}
 Architecture: all
+Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
 Recommends: tesseract-ocr (>= 3.99)
