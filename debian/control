@@ -1576,7 +1576,7 @@ Description: tesseract-ocr language files for Korean (vertical)
  extract printed text from images. This package contains the data
  needed for processing images in Korean (vertical) language.
 
-Package: tesseract-ocr-kur-ara
+Package: tesseract-ocr-kmr
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
@@ -1584,11 +1584,11 @@ Depends: ${misc:Depends}
 Recommends: tesseract-ocr (>= 3.99)
 Breaks: tesseract-ocr (<< 3.99)
 Replaces: tesseract-ocr-data (<< 2)
-Description: tesseract-ocr language files for Kurdish (Arabic)
+Description: tesseract-ocr language files for Kurmanji (Latin)
  Tesseract is an open source Optical Character Recognition (OCR)
  Engine. It can be used directly, or (for programmers) using an API to
  extract printed text from images. This package contains the data
- needed for processing images in Kurdish (Arabic) language.
+ needed for processing images in Kurmanji (Latin) language.
 
 Package: tesseract-ocr-ltz
 Architecture: all
