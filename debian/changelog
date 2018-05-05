@@ -1,3 +1,21 @@
+tesseract-lang (1:4.00~git30-7274cfa-1) unstable; urgency=medium
+
+  * Compile
+  * Bump Standards-Version to 4.1.4
+  * Epoch bump to add language files for Ancient Greek
+  * set "Multi-Arch: foreign" to all packages
+  * correct name tesseract-ocr-kur-ara to tesseract-ocr-kmr - Kurmanji
+    (Latin script)
+  * URL: https://github.com/tesseract-ocr/tessdata_fast.git
+  * Branch: master
+  * Commit: 7274cfad453d770f36b53ec5a2294ddd6d905703
+  * Date: 1524677480
+  * git changelog:
+  *  7274cfa - Merge pull request #16 from Shreeshrii/master
+  *  a98a17f - correct name kur_ara to kmr - Kurmanji (Latin script)
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Wed, 02 May 2018 12:25:40 +0300
+
 tesseract-lang (4.00~git28-f7a4c12-1) unstable; urgency=medium
 
   * Compile
