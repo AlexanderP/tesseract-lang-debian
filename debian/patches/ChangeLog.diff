@@ -1,10 +1,15 @@
 Description: Add git ChangeLog
 Author: Alexander Pozdnyakov <almipo@mail.ru>
-Last-Update: 2018-03-14
+Last-Update: 2019-06-13
 
---- /dev/null	2018-03-14 14:23:15.071599550 +0300
-+++ tesseract-lang-4.00~git26-f102e00/ChangeLog	2018-03-14 14:35:59.770572932 +0300
-@@ -0,0 +1,19 @@
+--- /dev/null	2019-09-24 18:04:26.181135597 +0300
++++ tesseract-lang-5.0.0~git36-2b4f587/ChangeLog	2019-09-24 23:36:17.777461115 +0300
+@@ -0,0 +1,24 @@
++2019-06-13 - Add Apache license file (commit: 27cfc71)
++2019-05-22 - Add tessconfigs submodule and links for required tessdata files (commit: 61e4ac5)
++2018-10-23 - These models don't work with old versions of Tesseract. (commit: a7cb5a8)
++2018-04-25 - correct name kur_ara to kmr - Kurmanji (Latin script) (commit: a98a17f)
++2018-03-20 - Updated based on Ray's comment (commit: b3ad50c)
 +2018-03-10 - Move trained data for scripts to new subdirectory (commit: 9f875fb)
 +2018-02-26 - Add config files to fix auto PSM issue 1273 (commit: 4e7c9ce)
 +2018-02-21 - Update README.md (commit: 86db1f4)

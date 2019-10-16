@@ -13,19 +13,19 @@ cp -f control.in ${CONTROL}
 dependencies() {
   case "$1" in
     aze)
-      sed 's/${misc:Depends}/&, tesseract-ocr-aze-cyrl (>= 3.99)/g'
+      sed 's/${misc:Depends}/&, tesseract-ocr-aze-cyrl (>= 4.9.9)/g'
       ;;
     uzb)
-      sed 's/${misc:Depends}/&, tesseract-ocr-uzb-cyrl (>= 3.99)/g'
+      sed 's/${misc:Depends}/&, tesseract-ocr-uzb-cyrl (>= 4.9.9)/g'
       ;;
     aze-cyrl)
-      sed 's/Recommends.*/&, tesseract-ocr-aze (>= 3.99)/g'
+      sed 's/Recommends.*/&, tesseract-ocr-aze (>= 4.9.9)/g'
       ;;
     uzb-cyrl)
-      sed 's/Recommends.*/&, tesseract-ocr-uzb (>= 3.99)/g'
+      sed 's/Recommends.*/&, tesseract-ocr-uzb (>= 4.9.9)/g'
       ;;
     srp-latn)
-      sed 's/${misc:Depends}/&, tesseract-ocr-srp (>= 3.99)/g'
+      sed 's/${misc:Depends}/&, tesseract-ocr-srp (>= 4.9.9)/g'
       ;;
     *)
       cat
@@ -42,8 +42,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for ${j}
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -54,7 +54,7 @@ Description: tesseract-ocr language files for ${j}
 EOF
 
 cat >> tesseract-ocr-${i}.install << EOF
-$(echo ${i} | sed 's/-/_/g').* usr/share/tesseract-ocr/4.00/tessdata/
+$(echo ${i} | sed 's/-/_/g').* usr/share/tesseract-ocr/5/tessdata/
 
 EOF
 done
@@ -65,8 +65,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for script and orientation
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -77,7 +77,7 @@ Description: tesseract-ocr language files for script and orientation
 EOF
 
 cat >> tesseract-ocr-osd.install << EOF
-$(echo osd | sed 's/-/_/g').* usr/share/tesseract-ocr/4.00/tessdata/
+$(echo osd | sed 's/-/_/g').* usr/share/tesseract-ocr/5/tessdata/
 
 EOF
 
@@ -89,8 +89,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for ${j} script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -101,7 +101,7 @@ Description: tesseract-ocr data for ${j} script
 EOF
 
 cat >> tesseract-ocr-script-${i}.install << EOF
-script/$(cat script.txt | grep "${i}__" | awk -F '__' '{print $2}') usr/share/tesseract-ocr/4.00/tessdata/
+script/$(cat script.txt | grep "${i}__" | awk -F '__' '{print $2}') usr/share/tesseract-ocr/5/tessdata/
 
 EOF
 done

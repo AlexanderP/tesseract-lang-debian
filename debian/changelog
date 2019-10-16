@@ -1,3 +1,18 @@
+tesseract-lang (1:5.0.0~git36-2b4f587-1) unstable; urgency=medium
+
+  * Compile
+  * URL: https://github.com/tesseract-ocr/tessdata_fast.git
+  * Branch: master
+  * Commit: 2b4f5879f4ebf820aeac5e3e03e2bddf26a0f15d
+  * Date: 1560451218
+  * git changelog:
+  *  27cfc71 - Add Apache license file
+  *  61e4ac5 - Add tessconfigs submodule and links for required tessdata
+    files
+  *  a7cb5a8 - These models don't work with old versions of Tesseract.
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Tue, 24 Sep 2019 23:45:38 +0300
+
 tesseract-lang (1:4.00~git30-7274cfa-1) unstable; urgency=medium
 
   * Compile
