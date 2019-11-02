@@ -1,10 +1,13 @@
 Description: Add git ChangeLog
 Author: Alexander Pozdnyakov <almipo@mail.ru>
-Last-Update: 2019-06-13
+Last-Update: 2018-02-17
 
---- /dev/null	2019-09-24 18:04:26.181135597 +0300
-+++ tesseract-lang-5.0.0~git36-2b4f587/ChangeLog	2019-09-24 23:36:17.777461115 +0300
-@@ -0,0 +1,24 @@
+--- /dev/null	2019-10-30 17:32:15.228490769 +0300
++++ tesseract-lang-4.0.0+git39-6572757/ChangeLog	2019-10-30 20:23:33.961162578 +0300
+@@ -0,0 +1,27 @@
++2019-10-30 - Add equ.traineddata (copy from tessdata) (commit: 6572757)
++2019-10-23 - Update tessconfigs (commit: 355bdbe)
++2019-10-11 - Update URL for tessconfigs submodule (use HTTPS) (commit: e0100b3)
 +2019-06-13 - Add Apache license file (commit: 27cfc71)
 +2019-05-22 - Add tessconfigs submodule and links for required tessdata files (commit: 61e4ac5)
 +2018-10-23 - These models don't work with old versions of Tesseract. (commit: a7cb5a8)
