@@ -64,8 +64,8 @@ Package: tesseract-ocr-equ
 Architecture: all
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: \${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language file for equations
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -76,7 +76,7 @@ Description: tesseract-ocr language file for equations
 EOF
 
 cat >> tesseract-ocr-equ.install << EOF
-$(echo equ | sed 's/-/_/g').* usr/share/tesseract-ocr/4.00/tessdata/
+$(echo equ | sed 's/-/_/g').* usr/share/tesseract-ocr/5/tessdata/
 
 EOF
 
