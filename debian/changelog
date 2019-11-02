@@ -1,3 +1,21 @@
+tesseract-lang (1:4.0.0+git39-6572757-1) unstable; urgency=medium
+
+  * Added package tesseract-equ language file for equations 
+  * URL: https://github.com/tesseract-ocr/tessdata_fast.git
+  * Branch: master
+  * Commit: 65727574dfcd264acbb0c3e07860e4e9e9b22185
+  * Date: 1572421488
+  * git changelog:
+  *  6572757 - Add equ.traineddata (copy from tessdata)
+  *  355bdbe - Update tessconfigs
+  *  e0100b3 - Update URL for tessconfigs submodule (use HTTPS)
+  *  27cfc71 - Add Apache license file
+  *  61e4ac5 - Add tessconfigs submodule and links for required tessdata
+    files
+  *  a7cb5a8 - These models don't work with old versions of Tesseract.
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Wed, 30 Oct 2019 20:30:46 +0300
+
 tesseract-lang (1:4.00~git30-7274cfa-1) unstable; urgency=medium
 
   * Compile
