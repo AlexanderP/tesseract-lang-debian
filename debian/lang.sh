@@ -59,27 +59,6 @@ $(echo ${i} | sed 's/-/_/g').* usr/share/tesseract-ocr/5/tessdata/
 EOF
 done
 
-dependencies equ >> ${CONTROL} << EOF
-Package: tesseract-ocr-equ
-Architecture: all
-Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: \${misc:Depends}
-Recommends: tesseract-ocr (>= 4.9.9)
-Breaks: tesseract-ocr (<< 4.9.9)
-Replaces: tesseract-ocr-data (<< 2)
-Description: tesseract-ocr language file for equations
- Tesseract is an open source Optical Character Recognition (OCR)
- Engine. It can be used directly, or (for programmers) using an API to
- extract printed text from images. This package contains the data
- needed for processing images with mathematical equations.
-
-EOF
-
-cat >> tesseract-ocr-equ.install << EOF
-$(echo equ | sed 's/-/_/g').* usr/share/tesseract-ocr/5/tessdata/
-
-EOF
-
 dependencies osd >> ${CONTROL} << EOF
 Package: tesseract-ocr-osd
 Architecture: all
