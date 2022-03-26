@@ -3,7 +3,7 @@ Section: graphics
 Priority: optional
 Maintainer: Alexander Pozdnyakov <almipo@mail.ru>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 4.1.4
+Standards-Version: 4.5.1
 Homepage: https://github.com/tesseract-ocr/
 Vcs-Git: https://github.com/AlexanderP/tesseract-lang-debian.git
 Vcs-Browser: https://github.com/AlexanderP/tesseract-lang-debian
@@ -13,8 +13,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Bulgarian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -27,8 +27,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Catalan
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -41,8 +41,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Czech
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -55,8 +55,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Danish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -69,8 +69,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for German
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -83,8 +83,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Greek
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -97,8 +97,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for English
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -111,8 +111,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Finnish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -125,8 +125,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for French
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -139,8 +139,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Hungarian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -153,8 +153,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Indonesian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -167,8 +167,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Italian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -181,8 +181,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Latvian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -195,8 +195,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Lithuanian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -209,8 +209,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Dutch
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -223,8 +223,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Norwegian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -237,8 +237,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Polish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -251,8 +251,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Portuguese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -265,8 +265,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Romanian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -279,8 +279,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Russian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -293,8 +293,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Slovakian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -307,8 +307,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Slovenian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -321,8 +321,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Spanish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -335,8 +335,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Serbian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -349,8 +349,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Swedish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -363,8 +363,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Turkish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -377,8 +377,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Ukrainian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -391,8 +391,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Vietnamese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -405,8 +405,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Chinese - Simplified
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -419,8 +419,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Chinese - Traditional
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -433,8 +433,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Amharic
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -447,8 +447,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Assamese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -461,8 +461,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99), tesseract-ocr-aze (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9), tesseract-ocr-aze (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Azerbaijani (Cyrillic)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -475,8 +475,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Tibetan Standard
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -489,8 +489,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Bosnian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -503,8 +503,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Cebuano
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -517,8 +517,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Welsh
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -531,8 +531,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Dzongkha
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -545,8 +545,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Persian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -559,8 +559,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Irish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -573,8 +573,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Gujarati
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -587,8 +587,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Haitian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -601,8 +601,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Inuktitut
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -615,8 +615,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Javanese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -629,8 +629,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Georgian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -643,8 +643,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Old Georgian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -657,8 +657,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Kazakh
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -671,8 +671,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Khmer
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -685,8 +685,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Kyrgyz
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -699,8 +699,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Lao
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -713,8 +713,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Latin
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -727,8 +727,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Marathi
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -741,8 +741,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Burmese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -755,8 +755,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Nepali
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -769,8 +769,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Oriya
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -783,8 +783,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Punjabi
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -797,8 +797,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Pashto
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -811,8 +811,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Sanskrit
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -825,8 +825,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Sinhala
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -838,9 +838,9 @@ Package: tesseract-ocr-srp-latn
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}, tesseract-ocr-srp (>= 3.99)
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Depends: ${misc:Depends}, tesseract-ocr-srp (>= 4.9.9)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Serbian (Latin)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -853,8 +853,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Syriac
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -867,8 +867,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Tajik
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -881,8 +881,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Tigrinya
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -895,8 +895,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Uyghur
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -909,8 +909,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Urdu
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -922,9 +922,9 @@ Package: tesseract-ocr-uzb
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}, tesseract-ocr-uzb-cyrl (>= 3.99)
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Depends: ${misc:Depends}, tesseract-ocr-uzb-cyrl (>= 4.9.9)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Uzbek
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -937,8 +937,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99), tesseract-ocr-uzb (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9), tesseract-ocr-uzb (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Uzbek (Cyrillic)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -951,8 +951,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Yiddish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -965,8 +965,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Afrikaans
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -979,8 +979,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Arabic
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -992,9 +992,9 @@ Package: tesseract-ocr-aze
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}, tesseract-ocr-aze-cyrl (>= 3.99)
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Depends: ${misc:Depends}, tesseract-ocr-aze-cyrl (>= 4.9.9)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Azerbaijani
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1007,8 +1007,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Belarusian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1021,8 +1021,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Bengali
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1035,8 +1035,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Cherokee
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1049,8 +1049,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for English, Middle (1100-1500)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1063,8 +1063,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Esperanto
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1077,8 +1077,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Estonian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1091,8 +1091,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Basque
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1105,8 +1105,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for German (Fraktur)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1119,8 +1119,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for French, Middle (ca.1400-1600)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1133,8 +1133,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Galician
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1147,8 +1147,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Hebrew
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1161,8 +1161,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Hindi
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1175,8 +1175,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Croatian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1189,8 +1189,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Icelandic
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1203,8 +1203,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Italian - Old
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1217,8 +1217,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Japanese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1231,8 +1231,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Kannada
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1245,8 +1245,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Korean
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1259,8 +1259,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Malayalam
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1273,8 +1273,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Macedonian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1287,8 +1287,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Maltese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1301,8 +1301,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Malay
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1315,8 +1315,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Spanish, Castilian - Old
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1329,8 +1329,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Albanian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1343,8 +1343,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Swahili
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1357,8 +1357,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Tamil
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1371,8 +1371,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Telugu
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1385,8 +1385,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Thai
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1399,8 +1399,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Greek, Ancient (to 1453)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1413,8 +1413,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Breton
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1427,8 +1427,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Chinese - Simplified (vertical)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1441,8 +1441,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Chinese - Traditional (vertical)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1455,8 +1455,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Corsican
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1469,8 +1469,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Divehi
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1483,8 +1483,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Faroese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1497,8 +1497,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Filipino
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1511,8 +1511,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Frisian (Western)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1525,8 +1525,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Gaelic (Scots)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1539,8 +1539,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Armenian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1553,8 +1553,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Japanese (vertical)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1567,8 +1567,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Korean (vertical)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1581,8 +1581,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Kurmanji (Latin)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1595,8 +1595,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Luxembourgish
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1609,8 +1609,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Mongolian
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1623,8 +1623,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Maori
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1637,8 +1637,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Occitan (post 1500)
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1651,8 +1651,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Quechua
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1665,8 +1665,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Sindhi
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1679,8 +1679,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Sundanese
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1693,8 +1693,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Tatar
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1707,8 +1707,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Tonga
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1721,8 +1721,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Yoruba
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1730,26 +1730,13 @@ Description: tesseract-ocr language files for Yoruba
  extract printed text from images. This package contains the data
  needed for processing images in Yoruba language.
 
-Package: tesseract-ocr-equ
-Architecture: all
-Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
-Replaces: tesseract-ocr-data (<< 2)
-Description: tesseract-ocr language file for equations
- Tesseract is an open source Optical Character Recognition (OCR)
- Engine. It can be used directly, or (for programmers) using an API to
- extract printed text from images. This package contains the data
- needed for processing images with mathematical equations.
-
 Package: tesseract-ocr-osd
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for script and orientation
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1762,8 +1749,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Arabic script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1776,8 +1763,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Armenian script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1790,8 +1777,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Bengali script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1804,8 +1791,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Canadian Aboriginal script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1818,8 +1805,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Cherokee script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1832,8 +1819,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Cyrillic script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1846,8 +1833,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Devanagari script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1860,8 +1847,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Ethiopic script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1874,8 +1861,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Fraktur script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1888,8 +1875,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Georgian script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1902,8 +1889,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Greek script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1916,8 +1903,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Gujarati script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1930,8 +1917,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Gurmukhi script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1944,8 +1931,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Han - Simplified script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1958,8 +1945,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Han - Simplified (vertical) script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1972,8 +1959,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Han - Traditional script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -1986,8 +1973,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Han - Traditional (vertical) script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2000,8 +1987,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Hangul script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2014,8 +2001,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Hangul (vertical) script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2028,8 +2015,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Hebrew script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2042,8 +2029,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Japanese script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2056,8 +2043,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Japanese (vertical) script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2070,8 +2057,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Kannada script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2084,8 +2071,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Khmer script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2098,8 +2085,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Lao script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2112,8 +2099,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Latin script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2126,8 +2113,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Malayalam script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2140,8 +2127,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Myanmar script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2154,8 +2141,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Oriya (Odia) script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2168,8 +2155,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Sinhala script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2182,8 +2169,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Syriac script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2196,8 +2183,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Tamil script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2210,8 +2197,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Telugu script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2224,8 +2211,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Thaana script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2238,8 +2225,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Thai script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2252,8 +2239,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Tibetan script
  Tesseract is an open source Optical Character Recognition (OCR)
@@ -2266,8 +2253,8 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 3.99)
-Breaks: tesseract-ocr (<< 3.99)
+Recommends: tesseract-ocr (>= 4.9.9)
+Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr data for Vietnamese script
  Tesseract is an open source Optical Character Recognition (OCR)

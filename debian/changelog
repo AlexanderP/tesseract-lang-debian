@@ -1,6 +1,6 @@
-tesseract-lang (1:4.0.0+git39-6572757-1) unstable; urgency=medium
+tesseract-lang (1:5.0.0~git39-6572757-1) unstable; urgency=medium
 
-  * Added package tesseract-equ language file for equations 
+  * update control
   * URL: https://github.com/tesseract-ocr/tessdata_fast.git
   * Branch: master
   * Commit: 65727574dfcd264acbb0c3e07860e4e9e9b22185
@@ -14,7 +14,14 @@ tesseract-lang (1:4.0.0+git39-6572757-1) unstable; urgency=medium
     files
   *  a7cb5a8 - These models don't work with old versions of Tesseract.
 
- -- Alexander Pozdnyakov <almipo@mail.ru>  Wed, 30 Oct 2019 20:30:46 +0300
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Wed, 16 Feb 2022 22:39:36 +0300
+
+tesseract-lang (1:4.00~git30-7274cfa-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Sun, 27 Dec 2020 17:21:02 +0100
 
 tesseract-lang (1:4.00~git30-7274cfa-1) unstable; urgency=medium
 
