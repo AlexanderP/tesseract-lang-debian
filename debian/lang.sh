@@ -13,19 +13,19 @@ cp -f control.in ${CONTROL}
 dependencies() {
   case "$1" in
     aze)
-      sed 's/${misc:Depends}/&, tesseract-ocr-aze-cyrl (>= 4.9.9)/g'
+      sed 's/${misc:Depends}/&, tesseract-ocr-aze-cyrl (>= 4.0.9)/g'
       ;;
     uzb)
-      sed 's/${misc:Depends}/&, tesseract-ocr-uzb-cyrl (>= 4.9.9)/g'
+      sed 's/${misc:Depends}/&, tesseract-ocr-uzb-cyrl (>= 4.0.9)/g'
       ;;
     aze-cyrl)
-      sed 's/Recommends.*/&, tesseract-ocr-aze (>= 4.9.9)/g'
+      sed 's/Recommends.*/&, tesseract-ocr-aze (>= 4.0.9)/g'
       ;;
     uzb-cyrl)
-      sed 's/Recommends.*/&, tesseract-ocr-uzb (>= 4.9.9)/g'
+      sed 's/Recommends.*/&, tesseract-ocr-uzb (>= 4.0.9)/g'
       ;;
     srp-latn)
-      sed 's/${misc:Depends}/&, tesseract-ocr-srp (>= 4.9.9)/g'
+      sed 's/${misc:Depends}/&, tesseract-ocr-srp (>= 4.0.9)/g'
       ;;
     *)
       cat

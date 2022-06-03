@@ -461,7 +461,7 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 4.9.9), tesseract-ocr-aze (>= 4.9.9)
+Recommends: tesseract-ocr (>= 4.9.9), tesseract-ocr-aze (>= 4.0.9)
 Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Azerbaijani (Cyrillic)
@@ -838,7 +838,7 @@ Package: tesseract-ocr-srp-latn
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}, tesseract-ocr-srp (>= 4.9.9)
+Depends: ${misc:Depends}, tesseract-ocr-srp (>= 4.0.9)
 Recommends: tesseract-ocr (>= 4.9.9)
 Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
@@ -922,7 +922,7 @@ Package: tesseract-ocr-uzb
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}, tesseract-ocr-uzb-cyrl (>= 4.9.9)
+Depends: ${misc:Depends}, tesseract-ocr-uzb-cyrl (>= 4.0.9)
 Recommends: tesseract-ocr (>= 4.9.9)
 Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
@@ -937,7 +937,7 @@ Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
 Depends: ${misc:Depends}
-Recommends: tesseract-ocr (>= 4.9.9), tesseract-ocr-uzb (>= 4.9.9)
+Recommends: tesseract-ocr (>= 4.9.9), tesseract-ocr-uzb (>= 4.0.9)
 Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)
 Description: tesseract-ocr language files for Uzbek (Cyrillic)
@@ -992,7 +992,7 @@ Package: tesseract-ocr-aze
 Architecture: all
 Multi-Arch: foreign
 Provides: tesseract-ocr-language, tesseract-ocr-lang
-Depends: ${misc:Depends}, tesseract-ocr-aze-cyrl (>= 4.9.9)
+Depends: ${misc:Depends}, tesseract-ocr-aze-cyrl (>= 4.0.9)
 Recommends: tesseract-ocr (>= 4.9.9)
 Breaks: tesseract-ocr (<< 4.9.9)
 Replaces: tesseract-ocr-data (<< 2)

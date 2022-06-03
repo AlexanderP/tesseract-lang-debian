@@ -1,3 +1,11 @@
+tesseract-lang (1:4.1.0-2) unstable; urgency=medium
+
+  * fix dependencies for tesseract-ocr-aze, tesseract-ocr-uzb,
+    tesseract-ocr-aze-cyrl, tesseract-ocr-uzb-cyrl,
+    tesseract-ocr-srp-latin
+
+ -- Alexander Pozdnyakov <almipo@mail.ru>  Thu, 02 Jun 2022 21:25:10 +0300
+
 tesseract-lang (1:4.1.0-1) unstable; urgency=medium
 
   * update control
